@@ -4,7 +4,7 @@ For making future changes via terminal:
 git checkout -b [branch name]
 
 AFTER making changes:
-git add .
+git add .	
 git commit -m [branch name]
 git push origin [branch name]
 
