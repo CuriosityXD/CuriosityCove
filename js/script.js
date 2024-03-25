@@ -1,5 +1,5 @@
 $(function() {
-    $('body').terminal({
+    var term = $('body').terminal({
         help: function() {
             this.echo('\n"whois      who am I?')
             this.echo('"help"      shows this menu')
@@ -10,9 +10,11 @@ $(function() {
             this.echo(intro.innerHTML)
         },
         whois: function() {
-            this.echo('\n' + whoisTxt.innerHTML + '\n')
+            this.echo(whoisTxt.innerHTML)
         }
     }, {
         greetings: intro.innerHTML
     });
 });
+
+$("body").css("background-color", "white");
