@@ -8,6 +8,9 @@ $(function() {
         },
         whois: function() {
             term.typing('echo', 1, whoisTxt.innerHTML, function() {  });
+        },
+        isPrime: function() {
+            this.prompt("Number: ")
         }
     }, {
         greetings: intro.innerHTML
