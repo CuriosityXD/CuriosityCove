@@ -10,7 +10,7 @@ $(function() {
             term.typing('echo', 1, whoisTxt.innerHTML, function() {  });
         },
         isPrime: function() {
-            this.prompt("Number: ")
+            this.prompt("Number(input): ")
         }
     }, {
         greetings: intro.innerHTML
